@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #2C3E50; /* Unique color for the navigation */
+    padding: 15px; /* Add padding for better spacing */
+}
+
+nav ul li a {
+    color: #ECF0F1; /* Change link color to a light shade */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add some padding for better click area */
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gallery-photo {
+    width: 30%; /* Adjust the width of each photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #2C3E50; /* Unique color for the navigation */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Add space between items */
+}
+
+nav ul li a {
+    color: #ECF0F1; /* Change link color to a light shade */
+    text-decoration: none; /* Remove underline from links */
+    padding: 8px 12px; /* Adjust padding for better click area */
+    border-radius: 4px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #34495E; /* Change background color on hover */
+    color: #FFFFFF; /* Change text color on hover */
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ECF0F1; /* Change link color to a light shade */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add some padding for better click area */
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gallery-photo {
+    width: 30%; /* Adjust the width of each photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FF00FF;
+    color: white;
+    margin-top: 20px; /* Adds space between content and footer */
+}
+
